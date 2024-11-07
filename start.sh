@@ -1,16 +1,16 @@
 #!/bin/bash
 
-cd ~/bestKabuGoFirefoxUpdateApi
+cd /home/lilith/bestKabuGoFirefoxUpdateApi
 
 go build
 
-mkdir /temp/bestKabuGoFirefoxUpdateApi
+mkdir /tmp/bestKabuGoFirefoxUpdateApi
 
 cp goFirefoxApi /tmp/bestKabuGoFirefoxUpdateApi/
 
 cd /temp/bestKabuGoFirefoxUpdateApi
 
-nohup ./goFirefoxApi  >> ~/goLog 2>&1 &
+nohup ./goFirefoxApi  >> /home/lilith/goLog 2>&1 &
 
 echo "$!" > ~/goPid
 
