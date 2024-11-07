@@ -17,7 +17,7 @@ const (
 
 // Handler for "/update/" and "/update" - serves JSON content or redirects to xpiHandler
 func updateHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Printf("URL: %s, sender:%s\n", r.URL.Path, r.RemoteAddr)
+	log.Printf("URL: %s, sender:%s\n", r.URL.Path, r.RemoteAddr)
 
 	// If the path is exactly "/update/" or "/update", serve the JSON file
 	if r.URL.Path == "/update" || r.URL.Path == "/update/" {
