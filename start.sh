@@ -1,14 +1,14 @@
 #!/bin/bash
 
-cd ~/goFirefoxApi
+cd ~/bestKabuGoFirefoxUpdateApi
 
 go build
 
-mkdir /temp/goFirefoxApi
+mkdir /temp/bestKabuGoFirefoxUpdateApi
 
-cp goFirefoxApi /tmp/goFirefoxApi/
+cp goFirefoxApi /tmp/bestKabuGoFirefoxUpdateApi/
 
-cd /temp/goFirefoxApi
+cd /temp/bestKabuGoFirefoxUpdateApi
 
 nohup ./goFirefoxApi  >> ~/goLog 2>&1 &
 
