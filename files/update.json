@@ -1,8 +1,8 @@
 {
   "addons": {
     "bestKabu@lilith.de": {
-      "version": "2.0.4",
-      "update-link": "https://lilith.v6.rocks/update/bk-204",
+      "version": "2.1.0",
+      "update-link": "https://lilith.v6.rocks/update/bk-210",
       "updates": [
         {
           "version": "2.0.1",
@@ -19,6 +19,10 @@
         {
           "version": "2.0.4",
           "update-link": "https://lilith.v6.rocks/update/bk-204"
+        },
+        {
+          "version": "2.1.0",
+          "update-link": "https://lilith.v6.rocks/update/bk-210",
         }
       ]
       ]
